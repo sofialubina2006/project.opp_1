@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Формы. Отправляем данные на сервер</title>
+</head>
+
+<html>
+
+<body>
+    <h3 align="center">Формы. Отправляем данные на сервер</h3>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">        
+        <p>Для поисковика:<input type="hidden" name="q" value="search"></p>
+        <p>Имя владельца: <input type="Text" name="last_name" size=20 value="Петров"></p>
+        <p>Имя котика: <input type="Text" name="name" size=20 value="0"></p>
+        <p>Описание котика:<input type="Text" name="group" value="252"></p>
+        <p>Возраст котика:<input type="number"></p>
+        <p>Пол котика:<input type="Radio" name="Gender" value="Male">Мужской
+        <input type="Radio" name="Gender" value="Female" checked>Женский</p>
+         <p>Любимые занятия Вашего котика:
+        <input type="Checkbox" name="habits" value="sleep" checked> Сладко спать
+        <input type="Checkbox" name="habits" value="eat" checked> Вкусно поесть
+        <input type="Checkbox" name="habits" value="Play" checked> Играть с мячиком/веревочкой
+        <input type="Checkbox" name="habits" value="bite" checked> Делать кусь
+        <input type="Checkbox" name="habits" value="scratch" checked> Царапаться
+        <input type="Checkbox" name="habits" value="walk" checked> Гулять
+        <input type="Checkbox" name="habits" value="hunt" checked> Охотиться
+        </p>
+        <p>Пароль: <input type="Password" name="password" size=10 value="123456789_cat"></p>
+        <p>Дата отправки сообщения:<input type="date" name="user_date" value='2024-10-07'></p>
+        <p><input type="Reset" name="Reset" value="Обновить"><input type="Submit" name="submit" value="Отправить"></p>
+
+    </form>
+</body>
+
+</html>
