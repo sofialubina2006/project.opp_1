@@ -1,15 +1,16 @@
 
-a_node = document.getElementById("a")
+const a_node = document.getElementById("a")
 
 
-b_node = document.getElementById("b")
+const b_node = document.getElementById("b")
 
 
-c_node = document.getElementById("c")
+const c_node = document.getElementById("c")
+
+const d_node = document.getElementById("d")
+
 let resultNode = document.getElementById("result");
 let verifyButton = document.getElementById("verify");
-
-d_node = document.getElementById("d")
 
 
 
