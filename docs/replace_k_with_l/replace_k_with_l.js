@@ -11,7 +11,7 @@ console.log(secondName_node.innerText)
 
 const patronymic_node = document.getElementById("patronymic_id")
 console.log(patronymic_node.innerText)
-patronymic_id.innerText = "Vinodovna"
+patronymic_node.innerText = "Vinodovna"
 console.log(patronymic_node.innerText)
 }
 
