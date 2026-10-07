@@ -8,6 +8,11 @@ const secondName_node = document.getElementById("last_name_id")
 console.log(secondName_node.innerText)
 secondName_node.innerText = "Lubina"
 console.log(secondName_node.innerText)
+
+const patronymic_node = document.getElementById("patronymic_id")
+console.log(patronymic_node.innerText)
+patronymic_id.innerText = "Vinodovna"
+console.log(patronymic_node.innerText)
 }
 
 
